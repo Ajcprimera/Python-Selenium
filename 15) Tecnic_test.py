@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from time import sleep
 
-class typos(unittest.TestCase):
+class tecnic_test(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
         driver = self.driver
